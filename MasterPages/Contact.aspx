@@ -6,18 +6,7 @@
         </div>
         <div class="container">
             <div class="content-center">
-                <h1 class="title">This is our great company.</h1>
-                <div class="text-center">
-                    <a href="#pablo" class="btn btn-primary btn-icon btn-round">
-                        <i class="fa fa-facebook-square"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-primary btn-icon btn-round">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-primary btn-icon btn-round">
-                        <i class="fa fa-google-plus"></i>
-                    </a>
-                </div>
+                <h1 class="title">Contact us!</h1>
             </div>
         </div>
     </div>

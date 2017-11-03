@@ -8,17 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MasterPages {
+
+
+public partial class Map {
 	
-	
-	public partial class MasterPage {
-		
-		protected System.Web.UI.WebControls.HyperLink HyperLinkHome;
-		
-		protected System.Web.UI.WebControls.HyperLink HyperLinkMap;
-		
-		protected System.Web.UI.WebControls.HyperLink HyperLinkContact;
-		
-		protected System.Web.UI.WebControls.ContentPlaceHolder contentPlaceHolder;
-	}
+	protected System.Web.UI.WebControls.Content Content1;
 }

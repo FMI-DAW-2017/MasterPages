@@ -179,6 +179,7 @@
     <Content Include="img\flags\YE.png" />
     <Content Include="Home.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="Map.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MasterPage.master.cs">
@@ -198,6 +199,12 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Map.aspx.cs">
+      <DependentUpon>Map.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Map.aspx.designer.cs">
+      <DependentUpon>Map.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

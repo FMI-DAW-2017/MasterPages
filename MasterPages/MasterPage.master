@@ -23,10 +23,17 @@
                         <span class="button-bar"></span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Home</a>
+                        <asp:HyperLink ID="HyperLinkHome" 
+                            CssClass="dropdown-item" 
+                            runat="server" 
+                            NavigateUrl="~/Home.aspx"> Home </asp:HyperLink>
+						
                         <a class="dropdown-item" href="#">Photo Gallery</a>
                         <a class="dropdown-item" href="#">Map</a>
-                        <a class="dropdown-item" href="#">Contact</a>
+						<asp:HyperLink ID="HyperLinkContact" 
+							CssClass="dropdown-item" 
+							runat="server" 
+							NavigateUrl="~/Contact.aspx"> Contact </asp:HyperLink>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">TreeView</a>
                     </div>
@@ -64,6 +71,7 @@
 
     	<div class="wrapper">
     	    <asp:ContentPlaceHolder id="contentPlaceHolder" runat="server" /> 
+			
     	</div>
 
 		<footer class="footer" data-background-color="black">

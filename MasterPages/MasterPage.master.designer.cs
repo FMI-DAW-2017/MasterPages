@@ -21,6 +21,8 @@ namespace MasterPages {
 		
 		protected System.Web.UI.WebControls.HyperLink HyperLinkContact;
 		
+		protected System.Web.UI.WebControls.HyperLink HyperLinkTreeView;
+		
 		protected System.Web.UI.WebControls.ContentPlaceHolder contentPlaceHolder;
 	}
 }

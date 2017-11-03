@@ -14,5 +14,9 @@ public partial class TreeView {
 	
 	protected System.Web.UI.WebControls.Content Content1;
 	
+	protected System.Web.UI.WebControls.SiteMapDataSource MainSMDS;
+	
 	protected System.Web.UI.WebControls.TreeView TreeView1;
+	
+	protected System.Web.UI.WebControls.Menu Menu1;
 }

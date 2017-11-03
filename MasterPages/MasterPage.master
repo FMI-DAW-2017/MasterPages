@@ -27,12 +27,17 @@
                             CssClass="dropdown-item" 
                             runat="server" 
                             NavigateUrl="~/Home.aspx"> Home </asp:HyperLink>
+
+						<asp:HyperLink ID="HyperLinkPhotoGallery" 
+                            CssClass="dropdown-item" 
+                            runat="server" 
+                            NavigateUrl="~/PhotoGallery.aspx"> Photo Gallery </asp:HyperLink>
 						
-                        <a class="dropdown-item" href="#">Photo Gallery</a>
 						<asp:HyperLink ID="HyperLinkMap" 
                             CssClass="dropdown-item" 
                             runat="server" 
                             NavigateUrl="~/Map.aspx"> Map </asp:HyperLink>
+						
 						<asp:HyperLink ID="HyperLinkContact" 
 							CssClass="dropdown-item" 
 							runat="server" 

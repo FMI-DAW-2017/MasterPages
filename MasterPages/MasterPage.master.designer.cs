@@ -15,6 +15,8 @@ namespace MasterPages {
 		
 		protected System.Web.UI.WebControls.HyperLink HyperLinkHome;
 		
+		protected System.Web.UI.WebControls.HyperLink HyperLinkPhotoGallery;
+		
 		protected System.Web.UI.WebControls.HyperLink HyperLinkMap;
 		
 		protected System.Web.UI.WebControls.HyperLink HyperLinkContact;
